@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tensorflow # for embedding tokens only
+keras
+datasets
+beautifulsoup4
+requests
