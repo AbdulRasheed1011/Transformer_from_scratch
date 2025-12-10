@@ -8,3 +8,4 @@ keras
 datasets
 beautifulsoup4
 requests
+gensim
