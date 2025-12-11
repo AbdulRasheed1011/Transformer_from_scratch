@@ -1,0 +1,21 @@
+project_name : transformer_from_scratch
+batch_size : 32
+learning_rate: 0.0003
+
+dataset:
+  name: "cnn_dailymail"
+  version: "3.0.0"
+  split_train: "train"
+  split_val: "validation"
+  split_test: "test"
+  max_input_len : 512
+  max_target_len : 128
+
+tokenizer:
+  model_name : 't5-small'
+  vocab_size : 32000
+  lower_case : true
+  pad_token : '<pad>'
+  bos_token : '<bos>'
+  eos_token : '<eos>'
+  unk_token : '<unk_token'
