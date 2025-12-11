@@ -1,13 +1,18 @@
-project_name : transformer_from_scratch
-batch_size : 32
-learning_rate: 0.0003
+project:
+  name : transformer_from_scratch
 
+paths:
+  data_dir : data/
+  raw_dir : data/raw/
+  processed_dir : data/processed/
+  checkpoints_dir : artifacts/checkpoints/
+  
 dataset:
-  name: "cnn_dailymail"
-  version: "3.0.0"
-  split_train: "train"
-  split_val: "validation"
-  split_test: "test"
+  name : cnn_dailymail
+  version : 3.0.0
+  split_train : train
+  split_val : validation
+  split_test : test
   max_input_len : 512
   max_target_len : 128
 
@@ -19,3 +24,16 @@ tokenizer:
   bos_token : '<bos>'
   eos_token : '<eos>'
   unk_token : '<unk_token'
+
+training:
+  batch_size : 32
+  num_epochs : 3
+  learning_rate : 3e-4
+  warmup_steps : 4000
+
+model:
+  vocab_size : 32000
+  d_model : 512
+  max_position_embeddig : 512
+
+
