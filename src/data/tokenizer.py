@@ -32,3 +32,4 @@ def tokenizer_batch(tokenizer, batch, config):
     model_inputs['labels'] = labels['input_ids']
 
     return model_inputs
+

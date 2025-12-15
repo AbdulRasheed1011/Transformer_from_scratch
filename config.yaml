@@ -21,9 +21,7 @@ tokenizer:
   vocab_size : 32000
   lower_case : true
   pad_token : '<pad>'
-  bos_token : '<bos>'
-  eos_token : '<eos>'
-  unk_token : '<unk_token'
+  
 
 training:
   batch_size : 32
@@ -32,8 +30,24 @@ training:
   warmup_steps : 4000
 
 model:
-  vocab_size : 32000
   d_model : 512
-  max_position_embeddig : 512
+  num_heads : 8
+  d_ff : 2048
+  
+  num_encoder_layers : 6
+  num_decoder_layers : 6
+
+  dropout : 0.1
+
+  vocab_size : 32000
+  max_position_embedding : 512
+
+  pad_token_id : 0
+  bos_toekn_id : 0
+  eos_token_id : 1
+
+
+
+
 
 
