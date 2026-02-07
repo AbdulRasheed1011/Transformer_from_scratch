@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/abdulrasheed/Desktop/DeepLearning/Transformer_from_Scratch/mlruns/405509760735515758/7c6622c1dc344e16ba2eb20e8bd7af3f/artifacts
+end_time: 1770442469818
+entry_point_name: ''
+experiment_id: '405509760735515758'
+lifecycle_stage: active
+run_id: 7c6622c1dc344e16ba2eb20e8bd7af3f
+run_name: unleashed-grub-187
+run_uuid: 7c6622c1dc344e16ba2eb20e8bd7af3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770442469792
+status: 3
+tags: []
+user_id: abdulrasheed

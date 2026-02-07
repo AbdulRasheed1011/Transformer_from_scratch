@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/abdulrasheed/Desktop/DeepLearning/Transformer_from_Scratch/mlruns/405509760735515758/8af4a84be3854efaa8f2310cb0f91ae3/artifacts
+end_time: 1770429326041
+entry_point_name: ''
+experiment_id: '405509760735515758'
+lifecycle_stage: active
+run_id: 8af4a84be3854efaa8f2310cb0f91ae3
+run_name: polite-pug-860
+run_uuid: 8af4a84be3854efaa8f2310cb0f91ae3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770429324244
+status: 4
+tags: []
+user_id: abdulrasheed

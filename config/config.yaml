@@ -1,0 +1,24 @@
+data:
+  dataset_name: "cnn_dailymail"
+  dataset_version: "3.0.0"
+  max_input_length: 512
+  max_output_length: 256
+  vocab_size: 8192 # Subword tokenizer vocab size
+
+model:
+  num_layers: 6
+  d_model: 256
+  dff: 1024
+  num_heads: 8
+  dropout_rate: 0.1
+
+training:
+  batch_size: 8 # Diminished for 512 length
+  epochs: 10
+  learning_rate: 0.0001
+  checkpoint_path: "./checkpoints"
+  
+paths:
+  raw_data: "./data/raw"
+  processed_data: "./data/processed"
+  tokenizer_file: "tokenizer.json"

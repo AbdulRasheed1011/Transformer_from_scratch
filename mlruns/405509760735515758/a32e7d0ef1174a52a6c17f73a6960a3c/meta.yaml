@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/abdulrasheed/Desktop/DeepLearning/Transformer_from_Scratch/mlruns/405509760735515758/a32e7d0ef1174a52a6c17f73a6960a3c/artifacts
+end_time: 1770442199067
+entry_point_name: ''
+experiment_id: '405509760735515758'
+lifecycle_stage: active
+run_id: a32e7d0ef1174a52a6c17f73a6960a3c
+run_name: wistful-chimp-980
+run_uuid: a32e7d0ef1174a52a6c17f73a6960a3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770442147161
+status: 3
+tags: []
+user_id: abdulrasheed

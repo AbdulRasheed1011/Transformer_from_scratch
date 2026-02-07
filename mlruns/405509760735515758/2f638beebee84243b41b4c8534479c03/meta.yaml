@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/abdulrasheed/Desktop/DeepLearning/Transformer_from_Scratch/mlruns/405509760735515758/2f638beebee84243b41b4c8534479c03/artifacts
+end_time: 1770429422770
+entry_point_name: ''
+experiment_id: '405509760735515758'
+lifecycle_stage: active
+run_id: 2f638beebee84243b41b4c8534479c03
+run_name: victorious-kit-588
+run_uuid: 2f638beebee84243b41b4c8534479c03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770429388914
+status: 4
+tags: []
+user_id: abdulrasheed
